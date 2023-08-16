@@ -24,7 +24,7 @@ Route::get('/', function () {
     // check for failures
     if (Mail::failures()) {
         echo "Failed";
-        $Xy = "qwe";
+          $XyABC = "qwe";
         // return response showing failed emails
     }
 });
