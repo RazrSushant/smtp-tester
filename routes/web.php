@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Mail;
 */
 
 Route::get('/', function () {
+    integer abc;
     Mail::send([], [], function ($message) {
         $message->to('sushanttayade123@gmail.com')
           ->subject('SMTP Tester')
